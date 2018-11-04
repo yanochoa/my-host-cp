@@ -13,9 +13,11 @@
     "dev": "(shx --silent rm -rf public || shx true) && gatsby develop",
     "server": "cross-env NODE_ENV=development DEBUG=api nodemon server.js"
   },
-  "author": "Prototype Interactive",
-  "license": "MIT",
+  "author": "Yan Ochoa & Nathan Bolivar",
+  "license": "",
   "dependencies": {
+    "gatsby": "^1.9.277",
+    "gatsby-link": "^1.6.46",
     "basic-auth": "^2.0.0",
     "compression": "^1.7.1",
     "debug": "^3.1.0",
@@ -23,6 +25,9 @@
     "helmet": "^3.10.0",
     "serve-static": "^1.13.1"
   },
+  "keywords": [
+    "gatsby"
+  ],
   "devDependencies": {
     "autoprefixer": "^7.2.5",
     "bootstrap": "^4.0.0",
@@ -47,10 +52,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PrototypeInteractive/gatsby-react-boilerplate.git"
-  },
-  "bugs": {
-    "url": "https://github.com/PrototypeInteractive/gatsby-react-boilerplate/issues"
-  },
-  "homepage": "https://github.com/PrototypeInteractive/gatsby-react-boilerplate#readme"
+    "url": "https://github.com/yanochoa/my-host-cp"
+  }
 }
