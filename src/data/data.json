@@ -1,0 +1,27 @@
+{
+  "features": [
+    {
+      "title": "Live MyHost bitch im dying MyHost"
+    },
+    {
+      "title": "Set custom responses to common guest questions"
+    },
+    {
+      "title": "Add custom questions and responses"
+    },
+    {
+      "title": "other feature"
+    }
+  ],
+  "howTo": [
+    {
+      "title": "Register account"
+    },
+    {
+      "title": "Run: `npm i` to install the dependencies"
+    },
+    {
+      "title": "Other instruction"
+    }
+  ]
+}
