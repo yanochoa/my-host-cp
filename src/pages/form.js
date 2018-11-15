@@ -42,7 +42,7 @@ export default class Form extends Component {
               />
             </div>
 
-            <button>Send</button>
+            <button type="submit">Send</button>
           </div>
         </form>
       </div>
