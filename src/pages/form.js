@@ -12,34 +12,36 @@ export default class Form extends Component {
           data-netlify-bot="bot-field"
         >
           <div className="inputs">
-            <div class="form-group">
+            <div className="form-group">
               <label for="formGroupTypeOfPropertyInputs">
                 Type of Property
               </label>
-              <select class="form-control" id="formGroupTypeOfPropertyInput">
+              <select
+                className="form-control"
+                id="formGroupTypeOfPropertyInput"
+              >
                 <option>Entire Place</option>
                 <option>Private Room</option>
                 <option>Shared Room</option>
               </select>
-            </div>
-            <div class="form-group">
+
               <label for="formGroupExampleInput">Property Name</label>
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 id="formGroupExampleInput"
                 placeholder="Example input"
               />
-            </div>
-            <div class="form-group">
+
               <label for="formGroupExampleInput2">Address</label>
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 id="formGroupExampleInput2"
                 placeholder="Another input"
               />
             </div>
+
             <button>Send</button>
           </div>
         </form>
